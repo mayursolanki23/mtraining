@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Notebookwala", "http://localhost:8724", "{D96DC00C-4280-4824-89C8-A54190453E26}"
 	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "Svn"
+		SccAuxPath = "Svn"
+		SccLocalPath = "Svn"
+		SccProvider = "SubversionScc"
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_8724"
@@ -23,8 +27,16 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Notebookwala", "http://loca
 		Release.AspNetCompiler.Debug = "False"
 		SlnRelativePath = "D:\Mayur\Learning\Phonegap\PGDemo2\Notebookwala\Notebookwala\"
 	EndProjectSection
+	ProjectSection(SvnOrigin) = preProject
+		@Keys = Enlist
+		Enlist = Required
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
